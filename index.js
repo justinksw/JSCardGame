@@ -1,13 +1,13 @@
 const cardObjectDefinitions = [
-    { id: 1, imagePath: "images/card-KingHearts.png" },
-    { id: 2, imagePath: "images/card-JackClubs.png" },
-    { id: 3, imagePath: "images/card-QueenDiamonds.png" },
-    { id: 4, imagePath: "images/card-AceSpades.png" },
+    { id: 1, imagePath: "images/76794549.jpg" },
+    { id: 2, imagePath: "images/14513273.jpg" },
+    { id: 3, imagePath: "images/14513273.jpg" },
+    { id: 4, imagePath: "images/14513273.jpg" },
 ];
 
 const aceId = 4;
 
-const cardBackImgPath = "images/card-back-Blue.png";
+const cardBackImgPath = "images/cover.jpg";
 
 let cards = [];
 
@@ -95,7 +95,7 @@ function chooseCard(card) {
     if (canChooseCard()) {
         evaluateCardChoice(card);
 
-        saveGameObjectToLocalStorage(score, roundNum)
+        saveGameObjectToLocalStorage(score, roundNum);
 
         flipCard(card, false);
 
