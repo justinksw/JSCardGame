@@ -5,7 +5,7 @@ const cardObjectDefinitions = [
     { id: 4, imagePath: "images/14513273.jpg" },
 ];
 
-const aceId = 4;
+const aceId = 1;
 
 const cardBackImgPath = "images/cover.jpg";
 
